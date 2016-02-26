@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div id="navbar" class="navbar-fixed-top">
+        <div class="content expand-vertical text-uppercase">
+            <div class="center-vertical">
+                <div class="pull-left">
+                    <a id="logo" href="http://tommoore.me.uk">Tom Moore</a>
+                </div>
+                <div class="pull-right">
+                    <div id="nav-menu-toggle">
+                        <div class="vertical-bar"></div>
+                        <div class="horizontal-bar"></div>
+                    </div>
+                </div>
+                <div class="clear-collapsed"></div>
+                <nav id="nav-menu-collapsible" class="">
+                    <ul class="list-unstyled">
+                        <li><a href="#page-home" class="active">Home</a></li>
+                        <li><a href="#page-about">About</a></li>
+                        <li><a href="#page-portfolio">Portfolio</a></li>
+                        <li><a href="#page-contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clear-floats"></div>
+        </div>
+    </div>
+    <!--PAGE-HOME-->
+    <div id="page-home" class="page page-full-height bkgr-mid-blue">
+        <div class="content expand-vertical text-off-white">
+            <header id="site-header" class="center-vertical">
+                <h1 class="linowrite">tom<br><span class="text-light-blue">moore</span></h1>
+            </header>
+            <ul class="social-links list-unstyled center-vertical text-right text-align-vertical">
+                <li>
+                    <a href="http://www.freecodecamp.com/lickyourlips" target="_blank">freeCodeCamp <i class="fa fa-fire"></i></a>
+                </li>
+                <li>
+                    <a href="https://github.com/tomchkk" target="_blank">GitHub <i class="fa fa-github"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/tomchkk" target="_blank">Twitter <i class="fa fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+        <!--DOWN-ARROW-->
+        <div id="arrow-container-outer" class="expand-horizontal">
+            <div id="arrow-container-inner" class="center-horizontal">
+                <a href="#page-about" class="peek-a-boo">
+                    <div class="expand-horizontal expand-vertical">
+                        <div id="arrow" class="center-horizontal">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--PAGE-ABOUT-->
+    <div id="page-about" class="page page-flex-height bkgr-off-white">
+        <div class="content">
+            <header>
+                <h1>About Me</h1>
+            </header>
+            <h2 class="strapline">Programmer. Tinkerer. Web developer.</h2>
+            <div class="section group">
+                <div class="col span_1_of_2">
+                    <img src="http://tommoore.me.uk/img/profile-pic.jpg" alt="Profile picture of Tom Moore" class="img-responsive" />
+                </div>
+                <div class="col span_1_of_2">
+                    <h3>Bio</h3>
+                    <p>
+                        Tom Moore is an up-and-coming full stack web developer, a lover of clean, lean, readable code and simple, elegant design. A voracious learner, he is currently enrolled in <a href="http://www.freecodecamp.com/">freeCodeCamp</a>, updating his skills and broadening his horizons to the world of Node.js and MongoDB.
+                    </p>
+                    <p>
+                        As an aspirational guitarist, when he’s not coding or tinkering, Tom might be found patiently transcribing his favourite songs, or writing his own.
+                    </p>
+                    <h3>Skills</h3>
+                    <p>
+                        Bootstrap | CCS3 | Git | HTML5 | JavaScript | jQuery | SQL | PHP | Symfony 2
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PAGE-PORTFOLIO-->
+    <div id="page-portfolio" class="page page-flex-height bkgr-off-white">
+        <div class="content">
+            <header>
+                <h1>Portfolio</h1>
+            </header>
+            <h2 class="strapline">Some of my recent projects</h2>
+            <div class="section group">
+                <div class="col span_1_of_3">
+                    <div class="project">
+                        <h3>Multilingual Website</h3>
+                        <a href="http://www.scholacarta.co.uk" target="_blank">
+                            <div class="overlay">
+                                <i class="fa fa-external-link fa-2x center-vertical"></i>
+                            </div>
+                            <img src="http://tommoore.me.uk/img/schola-carta.jpg" alt="Link to www.scholacarta.co.uk" class="img-responsive" />
+                        </a>
+                        <p>
+                            A multilingual website – in English and Russian – for a small educational business, built using <a href="http://symfony.com" target="_blank">Symfony 2</a> PHP framework and Bootstrap.
+                        </p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3">
+                    <div class="project">
+                        <h3>Recursive jpegtran Tool</h3>
+                        <a href="https://github.com/tomchkk/jpegopt" target="_blank">
+                            <div class="overlay">
+                                <i class="fa fa-external-link fa-2x center-vertical"></i>
+                            </div>
+                            <img src="http://tommoore.me.uk/img/jpegopt.jpg" alt="Link to jpegopt GitHub repository" class="img-responsive" />
+                        </a>
+                        <p>
+                            A shell script utility – jpegopt – for recursive optimisation of multiple jpeg files using <a href="https://en.wikipedia.org/wiki/Libjpeg#jpegtran" target="_blank">jpegtran</a>.
+                        </p>
+                    </div>
+                </div>
+                <div class="col span_1_of_3">
+                    <div class="project">
+                        <h3>PopClip Extension</h3>
+                        <a href="https://github.com/tomchkk/mdList2Table.git" target="_blank">
+                            <div class="overlay">
+                                <i class="fa fa-external-link fa-2x center-vertical"></i>
+                            </div>
+                            <img src="http://tommoore.me.uk/img/list-table.jpg" alt="Link to mdList2Table GitHub repository" class="img-responsive" />
+                        </a>
+                        <p>
+                            A <a href="https://pilotmoon.com/popclip/extensions/" target="_blank">PopClip</a> Extension – mdList2Table – to convert markdown-formatted lists into markdown-formatted tables.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--PAGE-CONTACT-->
+    <div id="page-contact" class="page page-flex-height bkgr-off-white">
+        <div class="content">
+            <header>
+                <h1>Contact</h1>
+            </header>
+            <h2 class="strapline">Connect with me!</h2>
+            <ul class="social-links list-unstyled list-inline">
+                <li><a href="http://www.freecodecamp.com/lickyourlips" target="_blank"><i class="fa fa-fire fa-lg"></i><span> freeCodeCamp</span></a></li>
+                <li><a href="https://github.com/tomchkk" target="_blank"><i class="fa fa-github fa-lg"></i><span> GitHub</span></a></li>
+                <li><a href="https://twitter.com/tomchkk" target="_blank"><i class="fa fa-twitter fa-lg"></i><span> Twitter</span></a></li>
+            </ul>
+            <div class="section group">
+                <div class="col span_1_of_2">
+                    <img src="http://tommoore.me.uk/img/bridge.jpg" alt="The main span of the Humber Bridge" class="img-responsive" />
+                </div>
+                <div class="col span_1_of_2">
+                    <p>If you'd like to find out more about any of my projects, if you'd like to collaborate, or if you just want to say "hi!", then <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#99;&#111;&#110;&#116;&#97;&#99;&#116;&#64;&#116;&#111;&#109;&#109;&#111;&#111;&#114;&#101;&#46;&#109;&#101;&#46;&#117;&#107;&#63;&#115;&#117;&#98;&#106;&#101;&#99;&#116;&#61;&#67;&#111;&#110;&#116;&#97;&#99;&#116;&#37;&#50;&#48;&#102;&#114;&#111;&#109;&#37;&#50;&#48;&#119;&#101;&#98;&#115;&#105;&#116;&#101;&#37;&#50;&#48;&#8211;&#37;&#50;&#48;&#116;&#111;&#109;&#109;&#111;&#111;&#114;&#101;&#46;&#109;&#101;&#46;&#117;&#107;" target="_top">email me</a>, or find me online.</p>
+                </div>
+            </div>
+        </div>
+        <div id="page-footer" class="bkgr-lead expand-horizontal">
+            <footer class="center-vertical">
+                <div class="content">
+                    <p class="text-off-white text-center">
+                        Copyright © Tom Moore 2015. All Rights Reserved
+                    </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.1/jquery.sticky.min.js'></script>
+    <script src='http://tommoore.me.uk/js/animatescroll.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
