@@ -156,7 +156,8 @@
 /* # ELEMENT STYLE */
 
 html,
-body {
+body,
+.wrapper {
     height: 100%;
     font-family: 'Gill Sans';
     font-weight: 100;
