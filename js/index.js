@@ -45,4 +45,6 @@ $(document).ready(function() {
             padding: -10
         });
     });
+
+    $("#copyright-year").text(new Date().getFullYear());
 });
